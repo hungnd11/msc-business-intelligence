@@ -1,10 +1,5 @@
 # Assignment 1
 
-* [ ] Tasks
-  * [ ] Using Sqoop to import directly into Hive or Impala
-  * [ ] Create and manipulate the Movilens tables with Hive or Impala
-  * [ ] Bonus task: try to evaluate and compare the performance between MySQL and Hive/Impala on HDFS.
-
 ## Start HDFS and Hive
 
 * Setup HDFS in pseudo-distributed mode.
@@ -12,7 +7,7 @@
 * Start HDFS
 
 ```bash
-cd ${HADOOP_HOME} && ./sbin/start-dfs.sh
+cd ${HADOOP_HOME} && ./sbin/start-dfs.sh && ./sbin/start-yarn.sh
 ```
 
 * Start Hive: In a terminal, type in this command
